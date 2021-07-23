@@ -71,6 +71,11 @@ const restartGame=()=>{
 }
   return (
     <div className="container">
+      <h3>Tic Tac Toe</h3>
+
+      <ul>
+        <li>Game starts with player X</li>
+      </ul>
       <div className="board">
         <div className="row">
           <Square
